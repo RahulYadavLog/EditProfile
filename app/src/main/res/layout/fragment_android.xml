@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/name" />
+
+
+            <LinearLayout
+                android:id="@+id/layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About You"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/iconview"
+                    android:layout_width="60dp"
+                    android:layout_height="2dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/view_line" />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@android:color/transparent"
+                    android:hint="Kim Tas @u2gilles i have used custom layout in tabs that is linearlayout with 2 textviews but i want to change only one  "
+                    android:textSize="12sp"
+                    tools:text="About" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/view_line" />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center_horizontal"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/name" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Office Address"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/addview"
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/view_line" />
+
+                <EditText
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@android:color/transparent"
+                    android:hint="Kim Tas @u2gilles i have used custom layout in tabs that is linearlayout with 2 textviews but i want to change only one  "
+                    android:textSize="12sp"
+                    tools:text="Address" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/view_line" />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:gravity="center_horizontal"
+
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="28dp"
+                android:src="@drawable/name" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Language eg:-"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+
+                <EditText
+                    android:id="@+id/language"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+
+                    android:background="@android:color/transparent"
+                    android:hint="Hindi English "
+                    android:textSize="12sp"
+                    tools:text="Address" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view4"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/view_line" />
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/name" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="20dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Language eg:-"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/button_recycler"
+                android:layout_width="match_parent"
+                android:windowSoftInputMode="adjustPan|stateHidden"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="53dp"
+
+                tools:listitem="@layout/button_list" />
+
+        </LinearLayout>
+
+        <!--        <LinearLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="match_parent"-->
+        <!--            android:layout_marginLeft="40dp"-->
+        <!--            android:orientation="vertical">-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:orientation="horizontal">-->
+        <!--                <Button-->
+        <!--                    android:id="@+id/sport"-->
+        <!--                    android:layout_width="60dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:textSize="10sp"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Sport"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/Entertainment"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:textSize="10dp"-->
+        <!--                    android:layout_marginLeft="10dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Entertainment"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/News"-->
+        <!--                    android:layout_width="50dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:textSize="10dp"-->
+        <!--                    android:layout_marginLeft="10dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="News"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/Lifestyle"-->
+        <!--                    android:layout_width="50dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:textSize="10dp"-->
+        <!--                    android:layout_marginLeft="10dp"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Lifestyle"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="5dp"-->
+        <!--                android:orientation="horizontal">-->
+        <!--                <Button-->
+        <!--                    android:id="@+id/Business"-->
+        <!--                    android:layout_width="60dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:textSize="10sp"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Business"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/Wallpaper"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:textSize="10dp"-->
+        <!--                    android:layout_marginLeft="10dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Wallpaper"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/Art"-->
+        <!--                    android:layout_width="50dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:textSize="10dp"-->
+        <!--                    android:layout_marginLeft="10dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Art"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/Travel"-->
+        <!--                    android:layout_width="50dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:textSize="10dp"-->
+        <!--                    android:layout_marginLeft="10dp"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Travel"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+        <!--            </LinearLayout>-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="5dp"-->
+        <!--                android:orientation="horizontal">-->
+        <!--                <Button-->
+        <!--                    android:id="@+id/Brands"-->
+        <!--                    android:layout_width="60dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:textSize="10sp"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Brands"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/Technology"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:textSize="10dp"-->
+        <!--                    android:layout_marginLeft="10dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Technology"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/Education"-->
+        <!--                    android:layout_width="50dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:textSize="10dp"-->
+        <!--                    android:layout_marginLeft="10dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Education"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/Life"-->
+        <!--                    android:layout_width="50dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:textSize="10dp"-->
+        <!--                    android:layout_marginLeft="10dp"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Lifestyle"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+        <!--            </LinearLayout>-->
+
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="5dp"-->
+        <!--                android:orientation="horizontal">-->
+        <!--                <Button-->
+        <!--                    android:id="@+id/Banking"-->
+        <!--                    android:layout_width="110dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:textSize="10sp"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Banking and Finance"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/Marketing"-->
+        <!--                    android:layout_width="70dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:textSize="10dp"-->
+        <!--                    android:layout_marginLeft="10dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Marketing"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/Govt"-->
+        <!--                    android:layout_width="80dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:textSize="10dp"-->
+        <!--                    android:layout_marginLeft="10dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Govt. Politics"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+
+
+        <!--            </LinearLayout>-->
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_marginTop="5dp"-->
+        <!--                android:orientation="horizontal">-->
+        <!--                <Button-->
+        <!--                    android:id="@+id/Other"-->
+        <!--                    android:layout_width="70dp"-->
+        <!--                    android:layout_height="30dp"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:layout_alignParentBottom="true"-->
+        <!--                    android:textSize="10sp"-->
+        <!--                    android:layout_gravity="right"-->
+        <!--                    android:background="@drawable/cancle_button_background"-->
+        <!--                    android:text="Other"-->
+        <!--                    android:textAllCaps="false"-->
+        <!--                    android:textColor="@drawable/cancle_button_text_color" />-->
+        <!--            </LinearLayout>-->
+
+
+        <!--            </LinearLayout>-->
+
+    </LinearLayout>
+
+</LinearLayout>

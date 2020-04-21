@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:id="@+id/button_layout"
+    android:layout_height="wrap_content">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:focusable="false"
+        android:padding="5dp"
+        android:maxLines="1"
+        android:minWidth="20dp"
+        android:background="@drawable/cancle_button_background"
+        android:textColor="#000000"
+        android:id="@+id/button_list"
+        android:text="sport"/>
+
+</RelativeLayout>
